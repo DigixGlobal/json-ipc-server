@@ -5,7 +5,7 @@ authors = ["Nikolay Volf <nikvolf@gmail.com>"]
 
 [dependencies]
 jsonrpc-core = "3.0"
-mio = "0.5"
+mio = { git = "https://github.com/tymat/mio.git", branch = "freebsd-update" }
 slab   = "0.1.0"
 bytes  = "0.3.0"
 miow = "0.1"
